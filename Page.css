@@ -1,0 +1,37 @@
+
+
+/* Page.css */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 153px;
+}
+
+.logo {
+    width: 74px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.content {
+    display: flex;
+}
+
+.content > p {
+    margin-right: 18px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.accordion-button {
+    background-color: #11B98F;
+}
+
+.accordion-button:active, .accordion-button:visited, .accordion-button:hover {
+    background-color: #11B98F !important; 
+}
+
+
+

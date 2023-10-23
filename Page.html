@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="Page.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <!-- Company Logo -->
+        <div class="logo">
+          <p>Logo</p>
+        </div>
+
+        <!-- Navbar Toggler (for mobile) -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navigation Links -->
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div
+      id="carouselExampleSlidesOnly"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="Rectangle.png" alt="First slide" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion -->
+    <div
+      class="accordion accordion-flush mx-auto mt-5"
+      id="accordionFlushExample"
+      style="width: 1100px"
+    >
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseOne"
+            aria-expanded="false"
+            aria-controls="flush-collapseOne"
+            style="
+              color: #fff;
+              font-family: Montserrat;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+            "
+          >
+            Step 1: Niche Products
+          </button>
+        </h2>
+        <div
+          id="flush-collapseOne"
+          class="accordion-collapse collapse"
+          aria-labelledby="flush-headingOne"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div
+            class="accordion-body"
+            style="
+              border-radius: 0px 0px 5px 5px;
+              border: 1px solid #eff2f9;
+              background: #eaf0f6;
+            "
+          >
+            <h5 style="margin-top: 57px; color: #2E3A5E;
+            font-family: Montserrat;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;">Baby Products</h5>
+            <hr style="opacity: 0.7; background: #d8e1ea; margin-top: 26px;" />
+            <div class="container" style="margin-top: 51px;">
+              <div class="row row-cols-auto">
+                <div class="col-sm">
+                  <div
+                    class="card"
+                    style="
+                      width: 300px;
+height: 475px;
+flex-shrink: 0;
+                      border-radius: 20px;
+                      border: 1px solid #ddf6f0;
+                      background: var(--background-white, #fff);
+                      box-shadow: 6px 6px 24px 0px rgba(28, 49, 88, 0.05);
+                    "
+                  >
+                    <img src="image 1.png" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Baby Carriers</h5>
+                      <p class="card-text">
+                        Your little one was carried for 9 long months in the
+                        womb. While that may sometimes have been a challenge for
+                        the person doing the carrying, your baby was likely
+                        pretty happy with their cozy digs.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm">
+                  <div
+                    class="card"
+                    style="
+                      width: 300px;
+height: 475px;
+flex-shrink: 0;
+                      border-radius: 20px;
+                      border: 1px solid #ddf6f0;
+                      background: var(--background-white, #fff);
+                      box-shadow: 6px 6px 24px 0px rgba(28, 49, 88, 0.05);
+                    "
+                  >
+                    <img src="image 10.png" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Baby Diapers</h5>
+                      <p class="card-text">
+                        Diaper changing might seem complicated at first. But
+                        with a little practice, you'll find that keeping your
+                        baby clean and dry is easy.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm">
+                  <div
+                    class="card"
+                    style="
+                      width: 300px;
+height: 475px;
+flex-shrink: 0;
+                      border-radius: 20px;
+                      border: 1px solid #ddf6f0;
+                      background: var(--background-white, #fff);
+                      box-shadow: 6px 6px 24px 0px rgba(28, 49, 88, 0.05);
+                    "
+                  >
+                    <img src="image 11.png" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Baby Skin Care</h5>
+                      <p class="card-text">
+                        Your newborn's skin is so sensitive. Don't worry -
+                        rashes are common during baby's first year. Learn how to
+                        keep your baby's skin smooth and healthy. Also be sure
+                        to check out our sections on rashes, eczema, and
+                        sunburn.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm">
+                  <div
+                    class="card"
+                    style="
+                      width: 300px;
+height: 475px;
+flex-shrink: 0;
+                      border-radius: 20px;
+                      border: 1px solid #ddf6f0;
+                      background: var(--background-white, #fff);
+                      box-shadow: 6px 6px 24px 0px rgba(28, 49, 88, 0.05);
+                      margin-top: 41px;
+                    "
+                  >
+                    <img src="image 12.png" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Bottle feeding</h5>
+                      <p class="card-text">
+                        The practice of feeding an infant a substitute for
+                        breast milk. Pediatricians generally advise exclusively
+                        breastfeeding for all full-term, healthy infants for the
+                        first 6 months of life.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm">
+                  <div
+                    class="card"
+                    style="
+                      width: 300px;
+height: 475px;
+flex-shrink: 0;
+                      border-radius: 20px;
+                      border: 1px solid #ddf6f0;
+                      background: var(--background-white, #fff);
+                      box-shadow: 6px 6px 24px 0px rgba(28, 49, 88, 0.05);
+                      margin-top: 41px;
+                    "
+                  >
+                    <img src="image 13.png" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Baby Monitors</h5>
+                      <p class="card-text">
+                        Electronic device consisting of a one-way radio or video
+                        transmitter with a portable receiver for remotely
+                        listening to or observing an otherwise unattended child.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm">
+                  <div
+                    class="card"
+                    style="
+                      width: 300px;
+height: 475px;
+flex-shrink: 0;
+                      border-radius: 20px;
+                      border: 1px solid #ddf6f0;
+                      background: var(--background-white, #fff);
+                      box-shadow: 6px 6px 24px 0px rgba(28, 49, 88, 0.05);
+                      margin-top: 41px;
+                    "
+                  >
+                    <img src="image 14.png" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Baby Teethers</h5>
+                      <p class="card-text">
+                        A teether, teething toy, or chew toy is a device given
+                        to teething infants. Most modern teethers are silicone,
+                        but can also be made of wood or rubber. Some teethers
+                        are filled with a fluid or gel that can be frozen or
+                        refrigerated.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h5
+              style="
+                color: #2e3a5e;
+                font-family: Montserrat;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-top: 73px;
+              "
+            >
+              Kitchen tools
+            </h5>
+            <hr
+              style="
+                opacity: 0.7;
+                background: #d8e1ea;
+                width: 950px;
+                height: 1px;
+                margin-top: 26px;
+              "
+            />
+            <div class="container" style="margin-top: 51px; margin-bottom: 120px;">
+              <div class="row row-cols-auto">
+                <div class="col-sm">
+                  <div
+                    class="card"
+                    style="
+                      width: 300px;
+height: 475px;
+flex-shrink: 0;
+                      border-radius: 20px;
+                      border: 1px solid #ddf6f0;
+                      background: var(--background-white, #fff);
+                      box-shadow: 6px 6px 24px 0px rgba(28, 49, 88, 0.05);
+                    "
+                  >
+                    <img src="image 15.png" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Food Stainers</h5>
+                      <p class="card-text">
+                        A kitchen device that is most used to strain liquids
+                        away from other ingredients but also to ocassionally
+                        sift fine ingredients away from larger ingredients.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm">
+                  <div
+                    class="card"
+                    style="
+                      width: 300px;
+height: 475px;
+flex-shrink: 0;
+                      border-radius: 20px;
+                      border: 1px solid #ddf6f0;
+                      background: var(--background-white, #fff);
+                      box-shadow: 6px 6px 24px 0px rgba(28, 49, 88, 0.05);
+                    "
+                  >
+                    <img src="image 3.png" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Kitchen Knives</h5>
+                      <p class="card-text">
+                        A kitchen knife is any knife that is intended to be used
+                        in food preparation. ... Kitchen knives can be made from
+                        several different materials.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm">
+                  <div
+                    class="card"
+                    style="
+                      width: 300px;
+height: 475px;
+flex-shrink: 0;
+                      border-radius: 20px;
+                      border: 1px solid #ddf6f0;
+                      background: var(--background-white, #fff);
+                      box-shadow: 6px 6px 24px 0px rgba(28, 49, 88, 0.05);
+                    "
+                  >
+                    <img src="image 16.png" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Peelers</h5>
+                      <p class="card-text">
+                        A peeler is a kitchen tool consisting of a metal blade
+                        with a slot with a sharp edge attached to a handle, used
+                        to remove...
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item mt-3">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwo"
+            aria-expanded="false"
+            aria-controls="flush-collapseTwo"
+            style="
+              color: #fff;
+              font-family: Montserrat;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+            "
+          >
+            Step 2: Get Hosting & Domain
+          </button>
+        </h2>
+        <div
+          id="flush-collapseTwo"
+          class="accordion-collapse collapse"
+          aria-labelledby="flush-headingTwo"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div
+            class="accordion-body"
+            style="border-radius: 0px 0px 5px 5px; background: #eaf0f6"
+          >
+            <div
+              class="card"
+              style="
+                width: 400px;
+                height: 651px;
+                flex-shrink: 0;
+                border-radius: 20px;
+                border: 1px solid #f0f3f8;
+                background: var(--background-white, #fff);
+                box-shadow: 6px 6px 24px 0px rgba(28, 49, 88, 0.05);
+                margin-top: 64px;
+                margin-bottom: 85px;
+                margin-left: 61px;
+              "
+            >
+              <div class="card-body" style="margin-left: 39px">
+                <h5 class="card-title" style="margin-top: 59px; width: 284px;
+                height: 58px;
+                flex-shrink: 0; color: #2E3A5E;
+font-family: Montserrat;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; /* 145.455% */">
+                  Choosing your Hosting and Domain
+                </h5>
+                <h6 style="color: #2E3A5E;
+                font-family: Montserrat;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal; margin-top: 45px; ">1. Pick a name for your site.</h6>
+                <form>
+                  <input type="text" style="width: 280px;
+                  height: 50px;
+                  flex-shrink: 0; border-radius: 5px;
+border: 1px solid #D5E1ED;
+background: #EAF0F6; margin-top: 28px;" />
+                </form>
+                <button
+                  style="
+                    width: 180px;
+                    height: 50px;
+                    flex-shrink: 0;
+                    border-radius: 5px;
+                    background: #11b98f;
+                    box-shadow: 0px 6px 23px 0px rgba(4, 20, 16, 0.08);
+                    border: 1px solid #abe8d8;
+                    color: #fff;
+                    text-align: center;
+                    font-family: Montserrat;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 700;
+                    margin-top: 11px;
+                    line-height: 29px; /* 193.333% */
+                  "
+                >
+                  Check Availability
+                </button>
+                <h6 style="color: #2E3A5E;
+                font-family: Montserrat;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal; margin-top: 43px;">2. Get Hosting with Free Domain.</h6>
+                <p class="card-text" style="width: 265px;
+                height: 133px;
+                flex-shrink: 0; color: #8392A6;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 22px; /* 157.143% */">
+                  Once you find your site’s name, the next step is to get
+                  hosting & domain. The domain is the name of your site and
+                  hosting puts your website on the internet.
+                </p>
+                <button
+                  style="
+                    width: 270px;
+                    height: 50px;
+                    flex-shrink: 0;
+                    border-radius: 5px;
+                    background: #11b98f;
+                    border: 1px solid #abe8d8;
+                    box-shadow: 0px 6px 23px 0px rgba(4, 20, 16, 0.08);
+                    color: #fff;
+                    text-align: center;
+                    font-family: Montserrat;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 29px; /* 193.333% */
+                  "
+                >
+                  Get Hoting & Free Domain
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item mt-3">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseThree"
+            aria-expanded="false"
+            aria-controls="flush-collapseThree"
+            style="
+              color: #fff;
+              font-family: Montserrat;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+            "
+          >
+            Step 3: Keyword Tools
+          </button>
+        </h2>
+        <div
+          id="flush-collapseThree"
+          class="accordion-collapse collapse"
+          aria-labelledby="flush-headingThree"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div
+            class="accordion-body"
+            style="border-radius: 0px 0px 5px 5px; background: #eaf0f6"
+          >
+            <div class="container">
+              <div class="row row-cols-auto mt-3">
+                <div class="col-lg">
+                  <h5
+                    style="
+                      color: #2e3a5e;
+                      font-family: Montserrat;
+                      font-size: 20px;
+                      font-style: normal;
+                      font-weight: 600;
+                      line-height: 28px;
+                    "
+                  >
+                    Tools to Find Keywords
+                  </h5>
+                </div>
+              </div>
+              <div class="row row-cols-auto mt-3">
+                <div class="col-sm">
+                  <button
+                    style="
+                      border-radius: 5px;
+                      border: 1px solid #12aa84;
+                      background: #11b98f;
+                      width: 170px;
+                      height: 55px;
+                      flex-shrink: 0;
+                      color: #fff;
+                      text-align: center;
+                      font-family: Montserrat;
+                      font-size: 19px;
+                      font-style: normal;
+                      font-weight: 700;
+                      line-height: normal;
+                    "
+                  >
+                    #1 Tool
+                  </button>
+                  <label
+                    style="
+                      color: #2e3a5e;
+                      font-family: Montserrat;
+                      font-size: 16px;
+                      font-style: normal;
+                      font-weight: 500;
+                      line-height: 24px;
+                      margin-left: 23px;
+                    "
+                    >Keyword.io</label
+                  >
+                </div>
+              </div>
+              <div class="row row-cols-auto">
+                <div class="col-sm">
+                  <button
+                    style="
+                      border-radius: 5px;
+                      border: 1px solid #12aa84;
+                      background: rgba(255, 255, 255, 0.7);
+                      width: 170px;
+                      margin-top: 35px;
+                      height: 55px;
+                      flex-shrink: 0;
+                      color: #11b98f;
+                      text-align: center;
+                      font-family: Montserrat;
+                      font-size: 19px;
+                      font-style: normal;
+                      font-weight: 600;
+                      line-height: normal;
+                    "
+                  >
+                    #2 Tool
+                  </button>
+                  <label
+                    style="
+                      color: #2e3a5e;
+                      font-family: Montserrat;
+                      font-size: 16px;
+                      font-style: normal;
+                      font-weight: 500;
+                      line-height: 24px;
+                      width: 183px;
+                      margin-left: 23px;
+                    "
+                    >Keyword Sheeter</label
+                  >
+                </div>
+                <div class="col-sm">
+                  <button
+                    style="
+                      border-radius: 5px;
+                      border: 1px solid #12aa84;
+                      background: rgba(255, 255, 255, 0.7);
+                      width: 170px;
+                      height: 55px;
+                      flex-shrink: 0;
+                      margin-top: 35px;
+                      color: #11b98f;
+                      text-align: center;
+                      font-family: Montserrat;
+                      font-size: 19px;
+                      font-style: normal;
+                      font-weight: 600;
+                      line-height: normal;
+                    "
+                  >
+                    #3 Tool
+                  </button>
+                  <label
+                    style="
+                      color: #2e3a5e;
+                      font-family: Montserrat;
+                      font-size: 16px;
+                      font-style: normal;
+                      font-weight: 500;
+                      line-height: 24px;
+                      width: 183px;
+                      margin-left: 23px;
+                    "
+                    >Keyword Sheeter</label
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item mt-3">
+        <h2 class="accordion-header" id="flush-headingFour">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseFour"
+            aria-expanded="false"
+            aria-controls="flush-collapseFour"
+            style="
+              color: #fff;
+              font-family: Montserrat;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+            "
+          >
+            Step 4: Find Number of Searches
+          </button>
+        </h2>
+        <div
+          id="flush-collapseFour"
+          class="accordion-collapse collapse"
+          aria-labelledby="flush-headingFour"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div
+            class="accordion-body"
+            style="border-radius: 0px 0px 5px 5px; background: #eaf0f6"
+          >
+            <div class="container">
+              <div class="row row-cols-auto mt-3">
+                <div class="col-lg">
+                  <h5
+                    style="
+                      color: #2e3a5e;
+                      font-family: Montserrat;
+                      font-size: 20px;
+                      font-style: normal;
+                      font-weight: 600;
+                      line-height: 28px;
+                    "
+                  >
+                    Tools to get Search Volume
+                  </h5>
+                </div>
+              </div>
+              <div class="row row-cols-auto mt-3">
+                <div class="col-sm">
+                  <button
+                    style="
+                      border-radius: 5px;
+                      border: 1px solid #12aa84;
+                      background: #11b98f;
+                      width: 170px;
+                      height: 55px;
+                      flex-shrink: 0;
+                      color: #fff;
+                      text-align: center;
+                      font-family: Montserrat;
+                      font-size: 19px;
+                      font-style: normal;
+                      font-weight: 700;
+                      line-height: normal;
+                    "
+                  >
+                    #1 Tool
+                  </button>
+                  <label
+                    style="
+                      color: #2e3a5e;
+                      font-family: Montserrat;
+                      font-size: 16px;
+                      font-style: normal;
+                      font-weight: 500;
+                      line-height: 24px;
+                      margin-left: 23px;
+                    "
+                    >SemScoop</label
+                  >
+                </div>
+              </div>
+              <div class="row row-cols-auto">
+                <div class="col-sm">
+                  <button
+                    style="
+                      border-radius: 5px;
+                      border: 1px solid #12aa84;
+                      background: rgba(255, 255, 255, 0.7);
+                      width: 170px;
+                      margin-top: 35px;
+                      height: 55px;
+                      flex-shrink: 0;
+                      color: #11b98f;
+                      text-align: center;
+                      font-family: Montserrat;
+                      font-size: 19px;
+                      font-style: normal;
+                      font-weight: 600;
+                      line-height: normal;
+                    "
+                  >
+                    #2 Tool
+                  </button>
+                  <label
+                    style="
+                      color: #2e3a5e;
+                      font-family: Montserrat;
+                      font-size: 16px;
+                      font-style: normal;
+                      font-weight: 500;
+                      line-height: 24px;
+                      width: 183px;
+                      margin-left: 23px;
+                    "
+                    >LinkGraph</label
+                  >
+                </div>
+                <div class="col-sm">
+                  <button
+                    style="
+                      border-radius: 5px;
+                      border: 1px solid #12aa84;
+                      background: rgba(255, 255, 255, 0.7);
+                      width: 170px;
+                      height: 55px;
+                      flex-shrink: 0;
+                      margin-top: 35px;
+                      color: #11b98f;
+                      text-align: center;
+                      font-family: Montserrat;
+                      font-size: 19px;
+                      font-style: normal;
+                      font-weight: 600;
+                      line-height: normal;
+                    "
+                  >
+                    #3 Tool
+                  </button>
+                  <label
+                    style="
+                      color: #2e3a5e;
+                      font-family: Montserrat;
+                      font-size: 16px;
+                      font-style: normal;
+                      font-weight: 500;
+                      line-height: 24px;
+                      width: 183px;
+                      margin-left: 23px;
+                    "
+                    >SearchVolume.io</label
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
